@@ -3,16 +3,14 @@ description: Host your own Helm Chart Repository
 name: chartmuseum
 version: 1.0.0
 appVersion: 1.0.0
-home: https://github.com/helm/chartmuseum
-icon: https://raw.githubusercontent.com/mike7515/charts/main/logo.jpg
+home: https://mike7515.github.io/chartmuseum
+icon: https://github.com/mike7515/chartmuseum/raw/main/logo.jpg
 keywords:
   - chartmuseum
   - helm
   - charts repo
 sources:
-  - https://github.com/mike7515/charts/tree/main/src/chartmuseum
-  - https://github.com/chartmuseum
-  - https://github.com/helm/chartmuseum
+  - https://mike7515.github.io/chartmuseum
 maintainers:
   - name: chartmuseum
-    url: https://github.com/chartmuseum
+    url: https://mike7515.github.io/chartmuseum

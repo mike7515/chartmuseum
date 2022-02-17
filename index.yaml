@@ -3,7 +3,7 @@ entries:
   chartmuseum:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-17T11:24:32.51352+01:00"
+    created: "2022-02-17T11:39:43.484823+01:00"
     description: Host your own Helm Chart Repository
     digest: 3c69f88f88fa47d33ddb72a45d5670956add1c892a5c590303e95905faa52ff0
     home: https://github.com/helm/chartmuseum
@@ -23,4 +23,4 @@ entries:
     urls:
     - chartmuseum-1.0.0.tgz
     version: 1.0.0
-generated: "2022-02-17T11:24:32.508005+01:00"
+generated: "2022-02-17T11:39:43.481798+01:00"
