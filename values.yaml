@@ -3,11 +3,9 @@ extraArgs: []
 replicaCount: 1
 strategy:
   type: RollingUpdate
-  rollingUpdate:
-    maxUnavailable: 0
 image:
   repository: ghcr.io/helm/chartmuseum
-  tag: v0.14.0
+  tag: v0.15.0
   pullPolicy: IfNotPresent
 secret:
   labels: {}
@@ -68,8 +66,8 @@ env:
     LOG_JSON: true
     # disable use of index-cache.yaml
     DISABLE_STATEFILES: false
-    # disable Prometheus metrics
-    DISABLE_METRICS: true
+    # enable Prometheus metrics
+    ENABLE_METRICS: false
     # disable all routes prefixed with /api
     DISABLE_API: true
     # allow chart versions to be re-uploaded
@@ -140,6 +138,11 @@ deployment:
 ##
 podAnnotations: {}
   # iam.amazonaws.com/role: role-arn
+
+## Pod labels
+## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
+podLabels: {}
+  # name: value
 
 service:
   servicename:
@@ -270,6 +273,7 @@ volumePermissions:
 ## Ingress for load balancer
 ingress:
   enabled: false
+  pathType: "ImplementationSpecific"
   ## Chartmuseum Ingress labels
   ##
   labels: {}
