@@ -2,7 +2,7 @@
 
 Deploy your own private ChartMuseum.
 
-Please also see https://github.com/helm/chartmuseum
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/mike7515)](https://artifacthub.io/packages/search?repo=mike7515)
 
 ## Table of Content
 
