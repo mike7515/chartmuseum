@@ -1,8 +1,7 @@
-# ChartMuseum Helm Chart
+# ChartMuseum Helm Chart 
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/mike7515)](https://artifacthub.io/packages/search?repo=mike7515)
 
 Deploy your own private ChartMuseum.
-
-[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/mike7515)](https://artifacthub.io/packages/search?repo=mike7515)
 
 ## Table of Content
 
